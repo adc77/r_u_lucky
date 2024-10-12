@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f7eae7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 450px;
+    animation: fadeIn 0.7s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    background-color: #FF5C8A;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+  }
+  
+  button:hover {
+    background-color: #FF3D71;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #FF5C8A;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  a.email-link {
+    background-color: #FF5C8A;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: #FF3D71;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    button, a.email-link {
+      width: 100%;
+    }
+  }
+  
+  /* Add some romantic vibes with a smooth fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
